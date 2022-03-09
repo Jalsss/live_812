@@ -1,0 +1,214 @@
+name: live812
+description: live812 live streaming app
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.9.5+200
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+  agora_rtc_engine: ^3.4.6
+  #agora_rtc_rawdata: ^0.0.2
+  agora_rtc_rawdata:
+    path: ./plugins/agora_rtc_rawdata-0.0.2
+  adjust_sdk: ^4.28.0
+  bot_toast: ^2.1.1
+  buttons_tabbar: ^1.1.2
+  carousel_slider: ^1.4.1
+  crypto: ^2.1.3
+  darq: ^0.4.0+1
+  device_info: ^0.4.1+4
+  dots_indicator: ^1.0.0
+  expandable: ^4.1.4
+  firebase_core: ^0.5.3
+  firebase_crashlytics: ^0.2.4
+  firebase_messaging: ^7.0.3
+  flushbar: ^1.10.4
+  flutter_archive: ^2.0.2
+  flutter_html: ^0.11.1
+  flutter_inapp_purchase: ^3.0.0
+  flutter_launcher_icons: ^0.7.3
+  flutter_local_notifications: ^1.4.4
+  flutter_native_image: ^0.0.4
+  flutter_secure_storage: ^3.3.1+1
+  flutter_simple_dependency_injection: ^1.0.2+1
+  flutter_spotlight: ^0.1.1
+  flutter_svg: ^0.18.1
+  flutter_swiper: ^1.1.6
+  home_indicator: ^1.1.5
+  http: ^0.12.0+3
+  image_cropper: ^1.2.3
+  image_picker: ^0.6.7+3
+  infinity_page_view: ^1.0.0
+  intl: ^0.16.0
+  keyboard_visibility: ^0.5.6
+  loading_indicator_view: ^1.1.0
+  marquee: ^1.7.0
+  mutex: ^1.0.3
+  package_info: ^0.4.0+3
+  path: ^1.6.4
+  path_provider: ^1.6.5
+  permission_handler: '^4.2.0+hotfix.3'
+  photo_view: ^0.10.2
+  pin_code_fields: ^2.1.1
+  provider: ^4.0.1
+  rename: ^1.2.0
+  screen: ^0.0.5
+  speech_to_text: ^2.3.0
+  share: ^0.6.5+4
+  shared_preferences: ^0.5.6
+  simple_animations: ^1.3.4
+  socket_io_client: ^0.9.10
+  spritewidget: ^0.9.23
+  sqflite: ^1.3.0
+  store_redirect: ^1.0.2
+  tuple: ^1.0.3
+  uni_links: ^0.4.0
+  url_launcher: ^5.4.2
+  wave: ^0.0.8
+  webview_flutter: ^1.0.7
+
+# アプリアイコンを更新するには以下のコマンドを実行すること：
+# flutter pub run flutter_launcher_icons:main
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
+  adaptive_icon_background: "#FFFFFF"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/anim/
+    - assets/anim/new/2/
+    - assets/anim/new/3/
+    - assets/anim/new/4/
+    - assets/anim/new/5/
+    - assets/anim/new/9/
+    - assets/anim/new/11/
+    - assets/anim/new/12/
+    - assets/anim/new/13/
+    - assets/anim/new/14/
+    - assets/anim/new/15/
+    - assets/anim/new/16/
+    - assets/anim/new/18/
+    - assets/anim/new/19/
+    - assets/anim/new/19/19d/
+    - assets/anim/new/19/19u/
+    - assets/anim/new/20/
+    - assets/anim/new/20/20d/
+    - assets/anim/new/20/20u/
+    - assets/anim/new/21/
+    - assets/anim/new/22/
+    - assets/anim/new/23/
+    - assets/anim/new/23/23d/
+    - assets/anim/new/23/23u/
+    - assets/anim/new/26/
+    - assets/anim/new/27/
+    - assets/anim/new/28/
+    - assets/anim/new/29/
+    - assets/anim/new/31/
+    - assets/anim/new/32/
+    - assets/anim/new/34/
+    - assets/anim/new/35/
+    - assets/anim/new/101/
+    - assets/anim/new/102/
+    - assets/anim/new/103/
+    - assets/anim/new/201/
+    - assets/anim/new/202/
+    - assets/anim/new/203/
+    - assets/anim/new/204/
+    - assets/anim/new/205/
+    - assets/anim/new/206/
+    - assets/anim/new/207/
+    - assets/anim/new/208/
+    - assets/anim/new/301/
+    - assets/anim/new/401/
+    - assets/anim/new/402/
+    - assets/anim/new/403/
+    - assets/anim/new/501/
+    - assets/anim/new/502/
+    - assets/anim/new/503/
+    - assets/anim/new/504/
+    - assets/anim/new/505/
+    - assets/anim/new/506/
+    - assets/anim/new/507/
+    - assets/anim/new/508/
+    - assets/anim/new/509/
+    - assets/anim/new/510/
+    - assets/anim/new/511/
+    - assets/anim/new/512/
+    - assets/anim/new/513/
+    - assets/anim/new/514/
+    - assets/anim/new/515/
+    - assets/anim/new/516/
+    - assets/anim/new/519/
+    - assets/anim/new/520/
+    - assets/anim/new/521/
+    - assets/anim/new/24/
+    - assets/gif/
+    - assets/icon/
+    - assets/images/
+    - assets/images/beauty_filter/
+    - assets/sounds/
+    - assets/contact/
+    - assets/svg/
+    - assets/svg/beauty/
+    - assets/svg/menu/
+    - assets/svg/tabs/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: NotoSansJP
+      fonts:
+        - asset: fonts/NotoSansJP-Regular.otf
+
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

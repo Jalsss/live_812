@@ -1,0 +1,2 @@
+package android
+rootProject.name = 'agora_rtc_rawdata'

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73" height="20" viewBox="0 0 73 20">
+  <defs>
+    <filter id="Combined_Shape" x="0" y="0" width="73" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dx="-1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6" data-name="Group 6" transform="translate(1 0)">
+    <path id="Rectangle" d="M2,0H73a0,0,0,0,1,0,0V2a0,0,0,0,1,0,0H0A0,0,0,0,1,0,2V2A2,2,0,0,1,2,0Z" fill="#1e252d"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(1)">
+      <g transform="matrix(1, 0, 0, 1, -4, -2)" filter="url(#Combined_Shape)">
+        <path id="Combined_Shape-2" data-name="Combined Shape" d="M21,20A10,10,0,0,1,11,10V0H72V20ZM0,0H11V11C11,5.5,5.5,0,0,0Z" transform="translate(4 2)" fill="#4cb7e9"/>
+      </g>
+            <text id="閉じる" transform="translate(49 13)" fill="#cff0ff" font-size="10" font-family="YuGothicUI-Regular, Yu Gothic UI" letter-spacing="0.05em"><tspan x="-12.861" y="0">閉じる</tspan></text>
+      <path id="Stroke_3" data-name="Stroke 3" d="M5,10,0,5,5,0" transform="translate(18.5 12.5) rotate(-90)" fill="none" stroke="#cff0ff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

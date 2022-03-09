@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1062257371595",
+    "firebase_url": "https://live812-477af.firebaseio.com",
+    "project_id": "live812-477af",
+    "storage_bucket": "live812-477af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062257371595:android:349eed756b3cd64ea22e4e",
+        "android_client_info": {
+          "package_name": "works.live812.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062257371595-jht27p7cd1htfclvj1g1ni8l46oqqqkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsgIdcVOOiX24wVU5N6kfyQ0hEDTqCgyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062257371595-jht27p7cd1htfclvj1g1ni8l46oqqqkv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1062257371595-s22ne0rq5t07g0opeem7hl90nvselbv2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "works.live812.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

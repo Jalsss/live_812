@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="32px" viewBox="0 0 44 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>sound</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.300000012" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Liver_7-1-1_配信（開始前案内1）" transform="translate(-276.000000, -401.000000)" stroke="#FFFFFF">
+            <g id="sound" transform="translate(277.000000, 402.000000)">
+                <path d="M12.1488251,24.2608405 C13.1360966,24.2608405 14.5864883,24.7639326 15.3727154,25.3798506 L21.1491514,29.911379 C21.6176567,30.1407298 22,29.9095294 22,29.3953396 L22,0.602562947 C22,0.0920723979 21.6176567,-0.140977635 21.1491514,0.0883731911 L15.2057768,6.27159748 C14.5110966,6.99664203 13.1360966,7.58666552 12.1488251,7.58666552 L8.08844648,7.58666552 C3.62059399,7.58666552 0,11.3191653 0,15.9246778 C0,20.5264912 3.62059399,24.2608405 8.08844648,24.2608405 L12.1488251,24.2608405 Z" id="Stroke-1"></path>
+                <path d="M30,10 C33.316,10 36,12.4603333 36,15.5 C36,18.536 33.316,21 30,21" id="Stroke-3"></path>
+                <path d="M29,2 C36.1848463,2 42,7.81473805 42,14.9990708 C42,22.1759703 36.1848463,28 29,28" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
